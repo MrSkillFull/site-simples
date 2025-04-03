@@ -32,29 +32,8 @@
             <p>Donec velit leo, commodo non volutpat sed, lacinia vitae diam. Aliquam viverra scelerisque iaculis. Pellentesque velit felis, sagittis eu laoreet eget, dignissim sed tortor. Duis accumsan pretium justo, quis convallis sem euismod a. Cras lorem ex, suscipit vel aliquam vitae, maximus eget nisi. Suspendisse ultricies augue eget odio lobortis, blandit ullamcorper arcu volutpat. Proin id elit eget purus rutrum eleifend ac feugiat nisi. Integer sed leo feugiat, faucibus massa et, aliquet mi. Mauris dapibus turpis molestie felis rutrum, nec rhoncus mi elementum. Fusce facilisis justo elit, vel sodales libero consectetur eu.</p>
             <p>Etiam id tellus laoreet, sollicitudin dui fringilla, placerat nunc. Integer ornare consequat dui vel tristique. Etiam aliquam lacus sed urna sodales, sed fringilla nisi varius. Proin felis sapien, pretium in risus sed, posuere finibus mi. Integer iaculis vulputate semper. Sed pretium dapibus sapien ut semper. Vivamus venenatis, metus quis fermentum ornare, eros augue fermentum sem, at condimentum quam tortor quis nibh. Donec imperdiet feugiat lorem, vitae pretium mi venenatis vitae. Suspendisse ac ipsum sit amet ante sollicitudin accumsan sit amet at nulla. Ut nec mauris vitae tortor consequat tincidunt consequat quis nulla. Pellentesque ultrices dolor et purus scelerisque, condimentum luctus augue molestie. Sed sodales erat risus, non lobortis nibh hendrerit nec. Quisque lacinia erat at faucibus consectetur. Nulla porta rhoncus eleifend. Donec mattis consequat purus, vel viverra nisi bibendum non.</p>
         </article>
+
+        <script src="./script.js"></script>
     </div>
-
-
-    <script>
-        //Animação to título do header
-        title = document.querySelector('.title');
-        let isVisible = true;
-        setInterval(() => {
-            isVisible = !isVisible;
-            title.style.opacity = isVisible ? '1' : '0';
-        }, 750);
-
-        //Animação da sidebar
-        sidebar = document.querySelector(".sidebar");
-        menu = document.querySelector('.menu-ico');
-        menu.addEventListener('click', ()=>{
-            if(sidebar.classList.contains('openSidebar')){
-                sidebar.classList.remove('openSidebar');
-            }else{
-                sidebar.classList.add('openSidebar');
-            }
-        })
-
-    </script>
 </body>
 </html>

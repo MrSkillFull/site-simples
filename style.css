@@ -17,20 +17,36 @@ header{
     text-align: center;
 }
 .profile{
+    background-color: transparent;
     display: flex;
     align-items: center;
     text-align: left;
+}
+.greetings:hover{
+    padding: 5px;
+    transition: 1s;
+    background-color: var(--fontColor);
+    color: black;
+    border-radius: 10px;
 }
 .greetings{
     max-width: 120px;
     margin-right: 15px;
 }
 .profile-picture{
+    background-color: transparent;
     max-width: 40px;
     margin-right: 10px;
     border-radius: 20px;
 }
+.profile-picture:hover{
+    padding: 2px;
+    transition: 0.5s;
+    background-color: var(--fontColor);
+    cursor: pointer;
+}
 .menu-ico{
+    background-color: transparent;
     cursor: pointer;
     max-width: 50px;
     margin-left: 10px;
